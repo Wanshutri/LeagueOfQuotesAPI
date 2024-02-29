@@ -144,7 +144,7 @@ app.get('/english/search', (req, res) => {
 
 
 // Rutas para obtener un personaje específico por su ID
-app.get('/spanish/:id', (req, res) => {
+app.get('/spanish/search/:id', (req, res) => {
     const id = parseInt(req.params.id);
     const personaje = personajes.find(p => p.id === id);
     if (personaje) {
@@ -154,7 +154,7 @@ app.get('/spanish/:id', (req, res) => {
     }
 });
 
-app.get('/english/:id', (req, res) => {
+app.get('/english/search/:id', (req, res) => {
     const id = parseInt(req.params.id);
     const character = characters.find(p => p.id === id);
     if (character) {
