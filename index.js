@@ -1,12 +1,17 @@
 const express = require('express');
 const path = require('path');
-const fs = require('fs');
+
+// Inicializacion del servidor
+const app = express();
+const port = process.env.PORT || 3000; // Puerto de variable de entorno, o 3000
+
+app.listen(port, () => {
+    console.log('Servidor iniciado en el puerto ', port);
+});
 
 // Cargar los datos de personajes en español e inglés
 const personajes = require('./public/characters/spanish.json');
 const characters = require('./public/characters/english.json');
-
-const app = express();
 
 // Establecer el directorio de archivos estáticos
 app.use(express.static(path.join(__dirname, 'public')));
@@ -157,8 +162,4 @@ app.get('/english/:id', (req, res) => {
     } else {
         res.status(404).send('Character not found');
     }
-});
-
-app.listen(3000, () => {
-    console.log('Servidor iniciado en el puerto 3000');
 });
