@@ -10,9 +10,9 @@
         { "src": "/", "dest": "/index.js" },
         { "src": "/spanish", "dest": "/index.js" },
         { "src": "/english", "dest": "/index.js" },
-        { "src": "/spanish/search", "dest": "/index.js" },
-        { "src": "/english/search", "dest": "/index.js" },
         { "src": "/spanish/search/:id", "dest": "/index.js" },
-        { "src": "/english/search/:id", "dest": "/index.js" }
+        { "src": "/english/search/:id", "dest": "/index.js" },
+        { "src": "/spanish/search", "dest": "/index.js" },
+        { "src": "/english/search", "dest": "/index.js" }
       ]
 }
