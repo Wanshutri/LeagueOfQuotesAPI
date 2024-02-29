@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Jhin",
+        "slogan": "El Virtuoso",
+        "quote": "Mi genio florece en la masacre, como un lirio al amanecer.",
+        "region" : "Ionia",
+        "pic": "./../img/jhin.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Caitlyn",
+        "slogan": "La Sheriff de Piltover",
+        "quote": "En el caso.",
+        "region" : "Piltover",
+        "pic": "./../img/caitlyn.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Sett",
+        "slogan": "El Jefe",
+        "quote": "Sigo invicto.",
+        "region" : "Ionia",
+        "pic": "./../img/sett.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Pantheon",
+        "slogan": "La Lanza Inquebrantable",
+        "quote": "Renacemos en la batalla.",
+        "region" : "Targon",
+        "pic": "./../img/pantheon.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Ekko",
+        "slogan": "El Joven que Fragmentó el Tiempo",
+        "quote": "No importa cuanto tiempo tengas, si no como lo usas.",
+        "region" : "Zaun",
+        "pic": "./../img/ekko.jpg"
+    }
+]
