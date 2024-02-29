@@ -7,9 +7,12 @@
         }
     ],
     "routes": [
-        {
-            "src": "/",
-            "dest": "/index.js"
-        }
-    ]
+        { "src": "/", "dest": "/index.js" },
+        { "src": "/spanish", "dest": "/index.js" },
+        { "src": "/english", "dest": "/index.js" },
+        { "src": "/spanish/search", "dest": "/index.js" },
+        { "src": "/english/search", "dest": "/index.js" },
+        { "src": "/spanish/:id", "dest": "/index.js" },
+        { "src": "/english/:id", "dest": "/index.js" }
+      ]
 }
