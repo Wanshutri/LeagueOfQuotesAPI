@@ -15,12 +15,11 @@
     { "src": "/spanish/search", "dest": "/index.js" },
     { "src": "/english/search", "dest": "/index.js" },
     {
-      "handle": "filesystem"
-    },
-    {
       "src": "/(.*)",
-      "status": 404,
-      "dest": "/404.html"
+      "headers": {
+        "Access-Control-Allow-Origin": "*"
+      },
+      "dest": "/index.js"
     }
   ]
 }
