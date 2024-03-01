@@ -1,18 +1,30 @@
 {
-    "version": 2,
-    "builds": [
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    { "src": "/", "dest": "/index.js" },
+    { "src": "/spanish", "dest": "/index.js" },
+    { "src": "/english", "dest": "/index.js" },
+    { "src": "/spanish/search/:id", "dest": "/index.js" },
+    { "src": "/english/search/:id", "dest": "/index.js" },
+    { "src": "/spanish/search", "dest": "/index.js" },
+    { "src": "/english/search", "dest": "/index.js" }
+  ],
+  "rewrites": [],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
         {
-            "src": "index.js",
-            "use": "@vercel/node"
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
         }
-    ],
-    "routes": [
-        { "src": "/", "dest": "/index.js" },
-        { "src": "/spanish", "dest": "/index.js" },
-        { "src": "/english", "dest": "/index.js" },
-        { "src": "/spanish/search/:id", "dest": "/index.js" },
-        { "src": "/english/search/:id", "dest": "/index.js" },
-        { "src": "/spanish/search", "dest": "/index.js" },
-        { "src": "/english/search", "dest": "/index.js" }
       ]
+    }
+  ]
 }
