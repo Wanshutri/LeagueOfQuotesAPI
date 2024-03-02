@@ -5,7 +5,7 @@
         "slogan": "El Virtuoso",
         "quote": "Mi genio florece en la masacre, como un lirio al amanecer.",
         "region" : "Ionia",
-        "pic": "./../img/jhin.jpg"
+        "pic": "https://league-of-quotes-api.vercel.app/img/jhin.jpg"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "slogan": "La Sheriff de Piltover",
         "quote": "En el caso.",
         "region" : "Piltover",
-        "pic": "./../img/caitlyn.jpg"
+        "pic": "https://league-of-quotes-api.vercel.app/img/caitlyn.jpg"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "slogan": "El Jefe",
         "quote": "Sigo invicto.",
         "region" : "Ionia",
-        "pic": "./../img/sett.jpg"
+        "pic": "https://league-of-quotes-api.vercel.app/img/sett.jpg"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "slogan": "La Lanza Inquebrantable",
         "quote": "Renacemos en la batalla.",
         "region" : "Targon",
-        "pic": "./../img/pantheon.jpg"
+        "pic": "https://league-of-quotes-api.vercel.app/img/pantheon.jpg"
     },
     {
         "id": 5,
@@ -37,6 +37,6 @@
         "slogan": "El Joven que Fragmentó el Tiempo",
         "quote": "No importa cuanto tiempo tengas, si no como lo usas.",
         "region" : "Zaun",
-        "pic": "./../img/ekko.jpg"
+        "pic": "https://league-of-quotes-api.vercel.app/img/ekko.jpg"
     }
 ]

@@ -5,7 +5,7 @@
         "slogan": "The Virtuoso",
         "quote": "In carnage, I bloom, like a flower in the dawn.",
         "region" : "Ionia",
-        "pic": "./../img/jhin.jpg"
+        "pic": "https://league-of-quotes-api.vercel.app/img/jhin.jpg"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "slogan": "The Sheriff of Piltover",
         "quote": "I'm on the case.",
         "region" : "Piltover",
-        "pic": "./../img/caitlyn.jpg"
+        "pic": "https://league-of-quotes-api.vercel.app/img/caitlyn.jpg"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "slogan": "The boss",
         "quote": "I'm undisputed.",
         "region" : "Ionia",
-        "pic": "./../img/sett.jpg"
+        "pic": "https://league-of-quotes-api.vercel.app/img/sett.jpg"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "slogan": "The Unbreakable Spear",
         "quote": "In battle, we are reborn.",
         "region" : "Targon",
-        "pic": "./../img/pantheon.jpg"
+        "pic": "https://league-of-quotes-api.vercel.app/img/pantheon.jpg"
     },
     {
         "id": 5,
@@ -37,6 +37,6 @@
         "slogan": "The Boy Who Shattered Time",
         "quote": "It's not how much time you have, it's how you use it.",
         "region" : "Zaun",
-        "pic": "./../img/ekko.jpg"
+        "pic": "https://league-of-quotes-api.vercel.app/img/ekko.jpg"
     }
 ]
