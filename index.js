@@ -5,6 +5,8 @@ const path = require('path');
 const app = express();
 const port = process.env.PORT || 3000; // Puerto de variable de entorno, o 3000
 
+app.use(cors()); // Habilita CORS
+
 app.listen(port, () => {
     console.log('Servidor iniciado en el puerto ', port);
 });
